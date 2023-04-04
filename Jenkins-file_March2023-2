@@ -27,3 +27,9 @@ deploy adapters: [tomcat9(credentialsId: 'tomcatlovacredentials', path: '', url:
    }
    stage('8emailNotify'){
     emailext body: '''Hello Team,
+    }
+Build is done.
+Lovala''', recipientProviders: [developers(), upstreamDevelopers()], subject: 'Build status', to: 'biyogaunice17@yahoo.com'
+  }
+  */
+}
