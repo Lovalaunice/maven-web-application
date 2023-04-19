@@ -1,4 +1,4 @@
-@Library('Lovalaunice-sharedlibs') -
+@Library('Canada-sharedlibs') _
 pipeline{
    agent any
  tools{
@@ -12,3 +12,4 @@ pipeline{
     }
    }
   }
+}
